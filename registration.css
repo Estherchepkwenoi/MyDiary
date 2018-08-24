@@ -1,10 +1,30 @@
 body{
-    background-color: burlywood;
-    background-image: url("b.jpeg");
+     background-color: burlywood; 
+   background-image: url("./images/c.jpg");
     text-decoration-style: solid;
-    width: 40px;
     align-content: center;
     
 }
-    
+.login{
+    width: 50%;
+}
+.column::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    width: 80px;
+    text-decoration-color: black;
+    border-style: double;
+}
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: content-box;
+}
+input[type=submit]{
+    background-color: green;
 }
