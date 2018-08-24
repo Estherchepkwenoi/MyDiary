@@ -5,10 +5,11 @@ body{
     align-content: center;
     
 }
-.login{
+.column{
+    float: left;
     width: 50%;
 }
-.column::after{
+.login::after{
     content: "";
     display: table;
     clear: both;
