@@ -1,12 +1,24 @@
 body{
-    background-color: papayawhip;
-    background-blend-mode: hue;
+    background-image: url(./images/b.jpg);
     text-align: justify;
-    display: grid;
-    border-left: 1px solid #000;
     align-content: center;
-    
+    font-style: oblique;
+    font-size: 100%;
 
-    
+
+}
+.container {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-inline-start: 50%;
+}
+
+a {
+    font-size: 20px;
+}
+.note{
+    align-content: center;
+    background-color: blueviolet;
+    font: size 20;
 
 }
