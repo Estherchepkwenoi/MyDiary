@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/b.jpg);
+    background-color: aqua;
     text-align: justify;
     align-content: center;
     font-style: oblique;
@@ -8,17 +8,7 @@ body{
 
 }
 .container {
-    background-color: #F1F1F1;
     text-align: center;
-    padding-inline-start: 50%;
-}
-
-a {
-    font-size: 20px;
-}
-.note{
-    align-content: center;
-    background-color: blueviolet;
-    font: size 20;
-
+    align-content: space-between;
+    
 }
