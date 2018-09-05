@@ -1,6 +1,6 @@
 body{
     background-color: aqua;
-    text-align: justify;
+   /* text-align: justify;*/
     align-content: center;
     font-style: oblique;
     font-size: 100%;
@@ -11,4 +11,13 @@ body{
     text-align: center;
     align-content: space-between;
     
+}
+input[type=button]{
+    box-sizing: content-box;
+    font-style: oblique;
+    display: block;
+}
+a{
+    text-decoration-line: none;
+    align-content: center;
 }
