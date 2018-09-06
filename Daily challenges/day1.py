@@ -1,9 +1,9 @@
 from datetime import datetime
 currentYear = datetime.now().year
 print(currentYear)
-Dob = int(input("Enter the date of birth"))
-age = currentYear - Dob
-def Dob(age):
+Yob = int(input("Enter the year of birth"))
+age = currentYear - Yob
+def Yob(age):
    if age<18:
     print("The user is a minor.")
    else:
@@ -12,5 +12,5 @@ def Dob(age):
        else:
         print("The user is an elder.")  
 
-Dob(age)
+Yob(age)
 
